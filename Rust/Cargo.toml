@@ -1,0 +1,7 @@
+[package]
+name = "Rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+iroha_client = { "git" = "https://github.com/hyperledger/iroha.git", branch = "iroha2-dev" }
